@@ -139,20 +139,59 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BaseWindow.h" />
+    <ClInclude Include="CalculatorMessage.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="CommandButton.h" />
+    <ClInclude Include="CommandDispatcher.h" />
+    <ClInclude Include="CommandManager.h" />
+    <ClInclude Include="CommandRepository.h" />
+    <ClInclude Include="Control.h" />
+    <ClInclude Include="Display.h" />
+    <ClInclude Include="EventData.h" />
+    <ClInclude Include="Exception.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="GuiModel.h" />
+    <ClInclude Include="InputWidget.h" />
+    <ClInclude Include="MainWindow.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="Observers.h" />
+    <ClInclude Include="Publisher.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="smartptr.h" />
+    <ClInclude Include="Stack.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="Win32_RPN_Calculator.h" />
+    <ClInclude Include="Tokenizer.h" />
+    <ClInclude Include="UIEventData.h" />
+    <ClInclude Include="UserInterface.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Win32_RPN_Calculator.cpp" />
+    <ClCompile Include="BaseWindow.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="CommandButton.cpp" />
+    <ClCompile Include="CommandDispatcher.cpp" />
+    <ClCompile Include="CommandManager.cpp" />
+    <ClCompile Include="CommandRepository.cpp" />
+    <ClCompile Include="Control.cpp" />
+    <ClCompile Include="Display.cpp" />
+    <ClCompile Include="GuiModel.cpp" />
+    <ClCompile Include="InputWidget.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Observers.cpp" />
+    <ClCompile Include="Publisher.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Tokenizer.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Win32_RPN_Calculator.rc" />
+    <ResourceCompile Include="resource.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="appIcon.ico" />
     <Image Include="small.ico" />
-    <Image Include="Win32_RPN_Calculator.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
